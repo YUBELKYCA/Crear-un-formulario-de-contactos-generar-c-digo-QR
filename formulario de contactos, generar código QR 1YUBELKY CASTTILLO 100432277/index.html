@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de contacto</title>
+    <link rel="stylesheet" href="style.css">
+    </script>
+
+    </script>
+
+</head>
+
+<body>
+    <header>
+        <h1>Agregar Nuevo Contacto</h1>
+    </header>
+    <div>
+        <form id="formulario">
+            <img src="img/anadir-amigo.png" alt="">
+            <input type="text" id="nombre" name="nombre" required placeholder="Nombre">
+            <br>
+
+            <img src="img/anadir-amigo.png" alt="">
+            <input type="text" id="apellido" name="apellido" required placeholder="Apellido">
+            <br>
+
+
+            <input type="tel" id="telefono" name="telefono" required placeholder="Telefono">
+            <br>
+
+            <img src="img/receptor.png" alt="">
+            <input type="email" id="email" name="email" required placeholder="Email">
+            <br>
+
+            <img src="img/documento.png" alt="">
+            <input type="text" id="nota" name="nota" placeholder="Notas">
+            <br><br>
+
+            <button type="submit">Guardar y Generar QR</button>
+        </form>
+    </div>
+    <div id="qrC"></div>
+    <script src="qrcode.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
